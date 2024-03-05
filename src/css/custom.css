@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.navbar__inner {
+  margin: 0 auto;
+}
+
+/* FOR LARGE DESKTOP */
+@media (min-width: 1440px) {
+  .navbar__inner {
+    max-width: 1536px;
+  }
+}
