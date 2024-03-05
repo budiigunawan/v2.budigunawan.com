@@ -71,12 +71,12 @@ const config = {
         },
         items: [
           {
-            to: '/projects',
+            to: '/docs/intro',
             label: 'Projects',
             position: 'right',
           },
           { to: '/blog', label: 'Blog', position: 'right' },
-          { to: '/contact', label: 'Contact', position: 'right' },
+          { to: '/docs/intro', label: 'Contact', position: 'right' },
           // {
           //   href: 'https://github.com/budiigunawan',
           //   label: 'GitHub',
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'Contact',
-                to: '/contact',
+                to: '/docs/intro',
               },
               {
                 label: 'GitHub',
